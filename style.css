@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-        margin: 0;
+    padding: 0px;
+        margin: 0px;
         text-decoration: white;
         list-style: upper-alpha;
         box-sizing: border-box;
@@ -11,7 +11,7 @@
     }
     nav {
         background:#0A105A;
-        height: 80px;
+        height: 80%;
         width: 100%;
     }
     label.logo {
@@ -52,7 +52,6 @@
         line-height: 80px;
         margin-right: 40px;
         cursor: pointer;
-        display: none;
     }
     #check {
         display: none;
@@ -151,10 +150,12 @@
            
     }
    .chama{ 
-       padding: 0% auto;
-       margin: 50% auto;
+       padding: 0px auto;
+       margin: 50px auto;
        background-color: #4DA3FF;
-       background: linear-gradient(72deg, #0A1054 1%, #8956f3 99%); 
+       background: linear-gradient(72deg, #0A1054 1%, #8956f3 99%);
+       display: inline-flexbox; 
+       offset-distance: auto;
        
    }
    .contatos{
