@@ -129,10 +129,6 @@
         height: 80% auto;
     }
 
-
-
-    
-
     .partida{
         height: 50%;
         display: flex;
@@ -205,11 +201,12 @@
       display:;
   }
   .swiper {
-    width: 600px;
-    height: 300px;
+    width: 80%;
+    height: 80%;
+    background-position-x: 40%;
   }
   .inicial{
-      width: 1300px;
+      width: 80%;
       padding: 5px;
       text-align: center;
   }
