@@ -1,8 +1,8 @@
 *{
     padding: 0;
         margin: 0;
-        text-decoration: none;
-        list-style: none;
+        text-decoration: white;
+        list-style: upper-alpha;
         box-sizing: border-box;
     }
     
@@ -36,6 +36,10 @@
         padding: 7px 13px;
         border-radius: 3px;
         text-transform: uppercase;
+        border-bottom: #4DA3FF;
+        display: unset;
+        cursor: pointer;
+        animation-iteration-count: initial ;
     }
     a.active, a:hover {
         background: #1d075f;
@@ -93,11 +97,14 @@
         }
     }
     .chamada{
-       height: auto 0%;
+       height: auto 40%;
        -webkit-box-align: auto;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
-        text-align: center;    
+        text-align: center; 
+        max-resolution: 50%;
+        width: 100%;  
+        margin: calc(220%-5500%); 
     }
     .Encontrar{
         text-align: left;
